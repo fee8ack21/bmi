@@ -220,7 +220,7 @@ table {
 }
 
 .main-header .header-wrap .input-submit:hover {
-    background-color: #dea821;
+/*     background-color: #dea821; */
 }
 
 .main-header .header-wrap .input-submit:active {
@@ -235,7 +235,7 @@ table {
 }
 
 .main-header .header-wrap .input-submit:hover i{
-    background-color: #dea821;
+/*     background-color: #dea821; */
 }
 .main-header .header-wrap .input-submit:focus i{
     background-color: #dea821;
