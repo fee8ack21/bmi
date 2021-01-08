@@ -5,7 +5,16 @@ var textH = document.querySelector('.text-h')
 var dataBase = JSON.parse(localStorage.getItem('listItem')) || [];
 var body = document.querySelector('body');
 
-
+textH.addEventListener('change',function(){
+    if(this.value <1){
+        this.value=1;
+    }
+})
+textW.addEventListener('change',function(){
+    if(this.value <1){
+        this.value=1;
+    }
+})
 // add data event 
 send.addEventListener('click', addData, false);
 // 
